@@ -1,0 +1,30 @@
+.hero {
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__left {
+        max-width: 500px;
+    }
+
+    &__heading {
+        font-size: 70px;
+    }
+
+    &__text {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    &__right {
+
+    }
+    
+    &__link {
+        max-width: 200px;
+    }
+}
+
